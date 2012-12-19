@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+  <PreferenceCategory android:title="消息通知">
+	  <CheckBoxPreference android:title="开启声音" android:key="开启声音" android:summary="当有新消息通知时播放声音提示" android:defaultValue="true" /> 
+	  <CheckBoxPreference android:title="开启震动" android:key="开启震动" android:summary="当有新消息通知时震动提示" android:defaultValue="true" /> 
+  </PreferenceCategory>
+
+</PreferenceScreen>
